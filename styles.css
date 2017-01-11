@@ -1,28 +1,54 @@
-/* Remove margins and padding from the list, and add a black background color */
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+title{
+color: #D4AF37;
+text-align: center;
 }
 
-/* Float the list items side by side */
-ul.topnav li {float: left;}
+body  { 
+background-color: #B6B6B6;
+}
 
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+h1 {
+color:	#B81D18;
+text-align: center;
+}
+
+p {
+color: #004687;
+}
+
+h6{
+color: #004687;
+text-align: center;
+}
+.padding {
+	padding: 20px; 
+}
+.padding-top {
+	padding-top: 60px;
+}
+.padding-right {
+	padding-right: 60px;
+}
+.padding-left{
+	padding-left: 60px;
+}
+a:link {
+    color: #B81D18;
+    background-color: transparent;
     text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
 }
-
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
+a:visited {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #004687;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #B81D18;
+    background-color: transparent;
+    text-decoration: underline;
+}
