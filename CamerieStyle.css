@@ -1,0 +1,54 @@
+title{
+color: #D4AF37;
+text-align: center;
+}
+
+body  { 
+background-color: #B6B6B6;
+}
+
+h1 {
+color:	#B81D18;
+text-align: center;
+}
+
+p {
+color: #004687;
+}
+
+h6{
+color: #004687;
+text-align: center;
+}
+.padding {
+	padding: 20px; 
+}
+.padding-top {
+	padding-top: 60px;
+}
+.padding-right {
+	padding-right: 60px;
+}
+.padding-left{
+	padding-left: 60px;
+}
+a:link {
+    color: #B81D18;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #004687;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #B81D18;
+    background-color: transparent;
+    text-decoration: underline;
+}
